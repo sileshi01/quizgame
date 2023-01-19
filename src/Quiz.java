@@ -142,7 +142,7 @@ public class Quiz implements ActionListener{
         if (index>=total_questions){
             result();
         }else {
-            textField.setText("Question "+(index+1));
+            textField.setText("Question :"+(index+1));
             textArea.setText(questions[index]);
             answer_labelA.setText(options[index][0]);
             answer_labelB.setText(options[index][1]);
